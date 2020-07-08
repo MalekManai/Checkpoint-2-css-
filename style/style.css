@@ -196,15 +196,8 @@ ul#menu li a:hover
   padding: 25px 0 5px 25px;
   margin: 0;}
 
-#content ul
-{ margin: 2px 0 22px 0px;}
 
-#content ul li
-{ list-style-type: none;
-  background: url(bullet.png) no-repeat;
-  margin: 0 0 6px 0; 
-  padding: 0 0 4px 25px;
-  line-height: 1.5em;}
+
 
 #footer
 { clear: both;
@@ -250,14 +243,14 @@ ul#menu li a:hover
   border: 1px solid #eee;
   padding: 5px 10px;
   background: #fff;
-  color: #FFF;}
+  color: rgb(7, 2, 255);}
   
 .form_settings .submit
 { border: 0; 
   width: auto;
   margin: 0 0 0 200px; 
   cursor: pointer; 
-  color: #35BDF5;
+  color: #1b1ed6;
   border: 1px solid #ddd;
   padding: 5px 15px;
   background: #fff;
