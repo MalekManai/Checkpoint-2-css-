@@ -99,7 +99,7 @@ ol li
   height: 145px;}
 
 #logo
-{ width: 950px;
+{ width: 800px;
   float: left;
   height: 100px;
   background: transparent;
@@ -149,7 +149,7 @@ ul#menu li.current a
 { background: transparent url(transparent.png) repeat;
   border: 1px solid #000;
   border-bottom: 0;
-  color: #F14E23;}
+  color: #ff8360;}
 
 ul#menu li a:hover
 { color: #F14E23;}
@@ -171,8 +171,8 @@ ul#menu li a:hover
 { float: right;
   width: 200px;
   margin: 0 24px 27px 0;
-  background: #1d1d1d;
-  border: 1px solid #000;
+  background: springgreen;
+  border: 1px solid #FFF;
   padding: 0 15px 15px 15px;}
 
 .sidebar h3, .content h1
@@ -182,12 +182,7 @@ ul#menu li a:hover
 .sidebar h1
 { padding: 5px 0 0 0;}
 
-.paperclip
-{ float: left;
-  position: relative; 
-  z-index: 0;
-  vertical-align: middle; 
-  margin: -27px 0 -60px -30px;}
+
 
 #content
 { text-align: left;
@@ -279,7 +274,7 @@ ul#menu li a:hover
   margin: 0;
   padding: 10px 5px;
   width: 189px;
-  color: #F14E23;}
+  color: #ff7953;}
   
 .subscribe
 { color: #35BDF5;
@@ -292,7 +287,7 @@ ul#menu li a:hover
   font: normal 140% 'Yanone Kaffeesatz', sans-serif;}
  
   @media (min-width: 576px) and (max-width: 768px) {
-    h1, h2, h3, h4, h5, h6, body, p,  {
+    .body1{
      font-size: 1.25rem;
 
     }
@@ -300,7 +295,7 @@ ul#menu li a:hover
    } 
 
   @media (min-width: 768px) and (max-width: 992px)  {
-    h1, h2, h3, h4, h5, h6, body, p,{
+    .body1{
      font-size: 1.5rem;
      line-height: 1.5;
    }
@@ -308,12 +303,15 @@ ul#menu li a:hover
    } 
 
   @media (min-width: 992px) and (max-width: 1200px)  {
-    h1, h2, h3, h4, h5, h6, body, p,{
+   .body1{
       font-size: 1.75rem;
       line-height: 1.5;
     }
 
    } 
+   .body1 {
+     background-color: rgb(81, 126, 252);
+   }
 
  
   
